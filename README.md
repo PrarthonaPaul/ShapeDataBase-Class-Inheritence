@@ -8,7 +8,7 @@ The user inputs the type of the shape followed by a name and its coordinates.
 
 <h3>Creating a Triangle: </h3>
 
-triangle t1 1.0 1.0 2.0 2.0 3.0 3.0
+            triangle t1 1.0 1.0 2.0 2.0 3.0 3.0
 
 where triangle is the shape type, t1 is the name of the shape and (1,1), (2,2), (3,3) are the three vertices of the shape. 
 
@@ -16,7 +16,9 @@ where triangle is the shape type, t1 is the name of the shape and (1,1), (2,2), 
 
 For a circle, the user inputs the shape type, followed by the name, and the x and y coordinates of its centre and its radius. 
 
-Example: circle c1 0.0 0.0 4.0
+Example: 
+            
+            circle c1 0.0 0.0 4.0
 
 Here, c1 is a circle with a radius of 4 centred at the origin. 
 
@@ -24,7 +26,9 @@ Here, c1 is a circle with a radius of 4 centred at the origin.
 
 For a rectangle, the user inputs the keyword rectangle followed by the x and y coordinates of its centre and its height and width. 
 
-Example: rectangle r1 0.0 0.0 4.0 6.0
+Example: 
+
+            rectangle r1 0.0 0.0 4.0 6.0
 
 here, the program creates a rectangle located at the origin with a width of 4 and a height of 6. 
 
@@ -33,10 +37,13 @@ here, the program creates a rectangle located at the origin with a width of 4 an
 Both the keywords and the names of the shapes are case sensitive. So, while r1 and R1 can refer two two different shapes, circle and Circle are not both valid commands. Some other keywords of the program are: 
 area: it calculates the total area of all the shapes rounded to twp decimal points. 
     Example: 
+    
               Input:   area 
               Output:  Total area = 74.2
+              
 draw: It lists all the shapes in the Database
     Example: 
+    
               Input:  draw
               Output: triangle: t2 1.00 2.00 1.00 1.00 2.00 2.00 0.00 3.00 1.50 
                       triangle: t3 1.60 5.71 1.30 4.10 0.10 9.90 3.41 3.14 5.54 
