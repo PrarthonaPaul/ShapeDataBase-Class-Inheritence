@@ -1,0 +1,5 @@
+g++ -std=c++11 -c -g Parser.cpp -o Parser.o
+g++ -std=c++11 -c -g Circle.cpp -o Circle.o
+g++ -std=c++11 -c -g Rectangle.cpp -o Rectangle.o
+g++ -std=c++11 -c -g Triangle.cpp -o Triangle.o
+g++ -std=c++11 Parser.o Circle.o Rectangle.o Triangle.o Shape.o ShapesDB.o -o Parser.exe
